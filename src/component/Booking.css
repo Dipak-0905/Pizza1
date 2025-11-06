@@ -1,0 +1,41 @@
+.logoitem{
+    background-color: black;
+    border: 10px solid orange;
+    box-sizing: border-box;
+    justify-content: center;
+    width: auto;                   
+    margin: 15px 0px 0px;  
+}
+.paratop{
+    font-size: 30px;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-weight: bolder;
+}
+.headingtopimg{
+      font-family: 'PT Sans Narrow', sans-serif;
+      text-align: center;
+      font-weight: bolder;
+}
+.logoimg{
+    height: 50px;
+    padding-top: 10px;
+}
+.button00{
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+   
+   
+   
+    color: aliceblue;
+}
+@media(min-width:768px){
+    .logoitem{
+    background-color: black;
+    border: 10px solid orange;
+               
+    margin: 20px 10px 10px;
+    
+}
+}
+

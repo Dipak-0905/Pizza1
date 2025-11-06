@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Top-image{
+    background-image: url(/public/Image/Illustration/imgi_100_menu-top-bg-600x47.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.slider {
+    background-image: url(/public/Image/Background/imgi_73_chef-bg-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.Bottom-image{
+    background-image: url(/public/Image/Illustration/imgi_101_menu-bottom-bg-300x38.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.new{
+    margin: 0 1rem;
+}
+.para1{
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 20px;
+}
+.para99{
+    font-family: 'Pacifico', sans-serif;
+     color: #FD9F3E;
+     font-size: 35px;
+}
+.para88{
+     color: #ffffff;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 40px;
+     font-weight: bolder;
+}
+.iconimage{
+    height: 220px;
+    width: 600px;
+}
+@media(min-width:1024px){
+ .para88{
+     color: #ffffff;
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 70px;
+     font-weight: bolder;
+}
+}
+

@@ -1,0 +1,45 @@
+.para80{
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 50px;
+     font-weight: bolder;
+}
+.para22{
+    font-family: 'Pacifico', sans-serif;
+     color: #FD9F3E;
+     font-size: 25px;
+}
+.comman{
+    margin: 0 auto;
+}
+.comman img{
+height: 220px;
+    transition-duration: 0.4s;
+    
+
+}
+.comman img:hover{
+ cursor: pointer;
+  transform: translateY(-10px) scale(1.02);
+
+}
+.comman2:hover{
+    color: #FD9F3E;
+}
+.comman44:hover{
+  color: #FD9F3E;
+ 
+}
+.comman44{
+    color: black;
+   
+ font-size: 19px;
+  text-decoration: none;
+}
+.atag{
+    color:#FD9F3E;
+    font-size: 19px;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+.atag:hover{
+    color: black;
+}

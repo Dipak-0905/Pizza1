@@ -1,0 +1,73 @@
+.imag{
+border-radius: 50%;
+ width: 70%;
+transition: transform 0.4s ease, 0.4s ease;
+}
+.imag:hover{
+ transform: scale(1.08);
+  filter: brightness(1);
+  cursor: pointer; 
+}
+
+.para2{
+    font-size: 20px;
+  font-family: 'Pacifico', sans-serif;
+  color: #FD9F3E;
+}
+.para4{
+    font-size: 30px;
+    font-weight:bolder;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+.captionlogo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn{
+    background-color: #FD9F3E;
+    color: aliceblue;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: #FD9F3E;
+}
+@media(min-width:768px)
+{
+    .imag{
+  width: 100%;
+}
+
+
+}
+@media(min-width:992px){
+    .imag{
+   height: 250px;
+   width: 250px;
+}
+.captionlogo{
+  padding-left: 85px;
+}
+
+}
+@media(min-width:1440px){
+    .imag{
+   height: 400px;
+   width: 400px;
+
+}
+.para2{
+    font-size: 30px;
+}
+.para4{
+    font-size: 60px;
+}
+.captionlogo{
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+   
+}

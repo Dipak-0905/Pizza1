@@ -1,0 +1,36 @@
+
+.heading-1{
+    font-size: 22px;
+    font-family: PT Sans Narrow;
+}
+.para-1{
+    font-size: 14px;
+    font-family: PT Sans Narrow;
+}
+.img{
+    height: 70px;
+}
+.img:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+  cursor: pointer; 
+ background-color: aliceblue;
+ border-radius: 50%;
+}
+
+.image7{
+    background-color:#FD9D3E ;
+}
+.image8{
+    background-image: url(/public/Image/Illustration/Screenshot_2025-09-27_022728-removebg-preview.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+@media(min-width:1024px){
+    .img{
+    height: 100px;
+   
+}
+}

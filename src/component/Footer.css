@@ -1,0 +1,20 @@
+.footer{
+    background-color:#121619;
+    height: 700px;
+}
+.top{
+    padding-top: 80px;
+}
+.footer5{
+    color: aliceblue;
+    font-size: 15px;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+.footer5:hover{
+    color: #FD9F3E;
+}
+@media(min-width:768px){
+    .footer{
+         height: 60vh;
+    }
+}

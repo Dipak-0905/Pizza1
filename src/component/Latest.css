@@ -1,0 +1,61 @@
+.around{
+    border: 8px solid #FD9F3E;
+    border-radius: 100px;
+    height: 150px;
+    margin-left: 50px;
+
+}
+
+.para67{
+    background-color: aliceblue; 
+  
+}
+.para66{
+    color: darkgray;
+    font-size: 20px;
+     font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+.info{
+    background-color: black;
+    
+    
+}
+.infotech{
+    background-image: url(/public/Image/Illustration/imgi_34_menu-top-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+.infotech2{
+     background-image: url(/public/Image/Illustration/imgi_43_menu-bottom-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+
+}
+@media(min-width:768px){
+    .around{
+    border: 8px solid #FD9F3E;
+    border-radius: 100px;
+    height: 150px;
+    margin-left: none;
+
+}
+   
+.para67{
+    background-color: aliceblue; 
+    padding-left: 20px;
+  
+}
+.para66{
+    color: darkgray;
+    font-size: 20px;
+     font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+.atag{
+    padding-left: 50px;
+}
+
+}

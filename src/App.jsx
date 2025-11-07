@@ -21,7 +21,7 @@ import Footer from "./component/Footer";
 
 const App = () => {
 
-    const logo = "../public/Image/Illustration/imgi_2_logo-removebg-preview.png"
+    const logo = "../dist/Image/Illustration/imgi_2_logo-removebg-preview.png"
     const links = ["Home", "Menu", "Blog", "Reservation", "Pages"];
     const icons = ["bi bi-list"];
 
